@@ -1,0 +1,52 @@
+{
+  "categorias": [
+    {
+      "id": "2",
+      "nome": "Shoppings",
+      "descricao": "Lugares para fazer compras e passear"
+    },
+    {
+      "nome": "Restaurantes Atualizados",
+      "descricao": "Lugares para alimentação",
+      "id": "f598"
+    },
+    {
+      "id": "3ba3",
+      "nome": "Praias",
+      "descricao": "Teste123"
+    },
+    {
+      "id": "43dd",
+      "nome": "asdasd",
+      "descricao": "asds"
+    },
+    {
+      "id": "059b",
+      "nome": "gfdgfd",
+      "descricao": "h67"
+    },
+    {
+      "id": "356e",
+      "nome": "Teste3",
+      "descricao": "fwewe"
+    }
+  ],
+  "Lugares": [
+    {
+      "id": "3000",
+      "nome": "Teste Validação",
+      "categoria": "Praias",
+      "localizacao": "Bahi",
+      "urlFoto": "https://media.istockphoto.com/id/1450094329/pt/foto/colorful-sunset-viewed-from-the-pink-sea-beach-with-soft-waves.jpg?s=612x612&w=0&k=20&c=FEUPlxDXLzfgcOrglLz_YFY0KnOnQ_wfgi8sS08ROcs=",
+      "avaliacao": "5"
+    },
+    {
+      "id": "8b19",
+      "nome": "Yosuga",
+      "categoria": "asdasd",
+      "localizacao": "Hell",
+      "urlFoto": "https://m.media-amazon.com/images/S/pv-target-images/a7e2dc1090e0a28e53ac60c784e168fdd6c143742b7ff77b34c22eac7ca925a7.jpg",
+      "avaliacao": "5"
+    }
+  ]
+}
