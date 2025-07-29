@@ -20,15 +20,17 @@ export class LugarService {
 
   filtrar(nome: string, categoria: string ) : Observable<Lugar[]> {
 
-    const parametros = new HttpParams();
+    let parametros = new HttpParams();
 
     if(nome) {
-      parametros.set('nome_lik', nome)
+      parametros = parametros.set('nome_like', nome)
     }
 
-    if(categoria) {
-      parametros.set('categoria', categoria)
+    if(categoria && categoria !== '-1') {
+      parametros = parametros.set('categoria', categoria)
     }
+
+    console.log("Parametros: ", parametros)
 
     return this.http.get<Lugar[]>('http://localhost:3000/Lugares', {
       params : parametros
